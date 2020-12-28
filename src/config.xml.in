@@ -10,4 +10,7 @@
     <RunProgram>@QBC_RUN_PROGRAM@</RunProgram>
     <StartMenuDir>@QBC_START_MENU@</StartMenuDir>
     <TargetDir>@QBC_TARGET_DIR@</TargetDir>
+    <Licenses>
+        <License name="Beer Public License Agreement" file="license.txt" />
+    </Licenses>
 </Installer>
