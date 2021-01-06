@@ -10,4 +10,5 @@
     <RunProgram>@QBC_RUN_PROGRAM@</RunProgram>
     <StartMenuDir>@QBC_START_MENU@</StartMenuDir>
     <TargetDir>@QBC_TARGET_DIR@</TargetDir>
+    <RemoveTargetDir>false</RemoveTargetDir>
 </Installer>
