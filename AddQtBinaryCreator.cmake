@@ -265,7 +265,7 @@ function(add_qt_binary_creator TARGET)
             -c ${QBC_BUILD_DIR}/config/config.xml
             -p ${QBC_BUILD_DIR}/packages
             ${QBC_VERBOSE}
-            ${QBC_OUTPUT_DIR}/${QBC_NAME}_${QBC_VERSION}_($<CONFIG>)
+            ${QBC_OUTPUT_DIR}/${QBC_NAME}_${QBC_VERSION}
         COMMENT "Copy $<TARGET_FILE_DIR:${QBC_DEPENDS_TARGET}> to ${QBC_BUILD_DIR}/packages/${QBC_PACKAGE}/data then Launch binarycreator in (${QT_INSTALLER_FRAMEWORK_DIR}), installer will be in ${QBC_OUTPUT_DIR}"
 
    )
